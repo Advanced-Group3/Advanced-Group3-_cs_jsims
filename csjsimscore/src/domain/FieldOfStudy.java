@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package domain;
 
 /**
@@ -33,6 +30,7 @@ public class FieldOfStudy {
     public void setDepartmentId(int departmentId) {
         this.departmentId = departmentId;
     }
+    
     int id;
     String name;
     int departmentId;
