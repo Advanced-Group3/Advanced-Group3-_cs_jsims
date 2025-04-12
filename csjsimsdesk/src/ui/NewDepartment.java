@@ -66,6 +66,12 @@ public class NewDepartment extends javax.swing.JDialog {
 
         jLabel2.setText("College");
 
+        cmbCollege.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbCollegeActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -137,6 +143,10 @@ public class NewDepartment extends javax.swing.JDialog {
             Logger.getLogger(ViewCollege.class.getName()).log(Level.SEVERE, ex.getMessage());
         }
     }//GEN-LAST:event_formWindowOpened
+
+    private void cmbCollegeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbCollegeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cmbCollegeActionPerformed
 
     /**
      * @param args the command line arguments
