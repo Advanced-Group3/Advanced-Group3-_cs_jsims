@@ -34,6 +34,8 @@ public class JSimsMain extends javax.swing.JFrame {
         mnuiNewCollege = new javax.swing.JMenuItem();
         mnuiNewDepartment = new javax.swing.JMenuItem();
         mnuiViewColleges = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
         helpMenu = new javax.swing.JMenu();
         contentMenuItem = new javax.swing.JMenuItem();
         aboutMenuItem = new javax.swing.JMenuItem();
@@ -85,6 +87,13 @@ public class JSimsMain extends javax.swing.JFrame {
         mnuOrganization.add(mnuiViewColleges);
 
         menuBar.add(mnuOrganization);
+
+        jMenu1.setText("Program");
+
+        jMenuItem1.setText("Field of Study");
+        jMenu1.add(jMenuItem1);
+
+        menuBar.add(jMenu1);
 
         helpMenu.setMnemonic('h');
         helpMenu.setText("Help");
@@ -182,6 +191,8 @@ public class JSimsMain extends javax.swing.JFrame {
     private javax.swing.JMenuItem exitMenuItem;
     private javax.swing.JMenu fileMenu;
     private javax.swing.JMenu helpMenu;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenu mnuOrganization;
     private javax.swing.JMenuItem mnuiNewCollege;
