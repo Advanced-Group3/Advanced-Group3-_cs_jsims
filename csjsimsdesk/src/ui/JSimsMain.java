@@ -91,6 +91,11 @@ public class JSimsMain extends javax.swing.JFrame {
         jMenu1.setText("Program");
 
         jMenuItem1.setText("Field of Study");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem1);
 
         menuBar.add(jMenu1);
@@ -148,6 +153,14 @@ public class JSimsMain extends javax.swing.JFrame {
         faculty.setVisible(true);
         faculty.toFront();
     }//GEN-LAST:event_mnuiViewCollegesActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+        // TODO add your handling code here:
+        NewFieldOfStudy field = new NewFieldOfStudy(this, true);
+        field.setLocationRelativeTo(this);
+        field.setVisible(true);
+        
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     /**
      * @param args the command line arguments
